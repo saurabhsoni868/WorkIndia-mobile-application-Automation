@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-14T12:44:51Z" name="Default suite" finished-at="2021-01-14T12:48:12Z" duration-ms="200782">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@36b4091c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-01-14T12:44:51Z" name="Default test" finished-at="2021-01-14T12:48:12Z" duration-ms="200782">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="startAppium()[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:44:48Z" name="startAppium" finished-at="2021-01-14T12:44:51Z" duration-ms="2803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppium -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:44:51Z" name="setUpClass" finished-at="2021-01-14T12:44:51Z" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:44:52Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-14T12:45:51Z" duration-ms="59396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search a Job using Filter to WorkIndia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:45:51Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-14T12:46:03Z" duration-ms="11706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Try to Register User with Invalid Phone Number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:46:03Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-14T12:47:22Z" duration-ms="79418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Registration of New User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:47:22Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-01-14T12:48:11Z" duration-ms="49313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Update the Information of Registered User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:48:11Z" name="tearDownClass" finished-at="2021-01-14T12:48:12Z" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopAppium()[pri:0, instance:Runner.TestRunner@36b4091c]" started-at="2021-01-14T12:48:12Z" name="stopAppium" finished-at="2021-01-14T12:48:12Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppium -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

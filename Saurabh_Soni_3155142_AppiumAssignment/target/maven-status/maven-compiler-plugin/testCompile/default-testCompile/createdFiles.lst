@@ -1,0 +1,14 @@
+Pages\INvalidPhoneNumReg.class
+Pages\ProfileInfoUpdateScreen.class
+Pages\Reg_Screen2.class
+Pages\Reg_Screen1.class
+Runner\TestRunner.class
+StepDefinations\FindJobStepDef.class
+Pages\FiterPage.class
+StepDefinations\UpdateProfileInfoStepDef.class
+Pages\Reg_Screen4.class
+Pages\SelectedJobPage.class
+StepDefinations\RegistrationStepDef.class
+Pages\JobSearchPage.class
+StepDefinations\RegisterWithInvalidPhoneNumberStepDef.class
+Pages\Reg_Screen3.class

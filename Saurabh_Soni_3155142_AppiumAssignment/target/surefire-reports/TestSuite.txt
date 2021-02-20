@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 211.19 s <<< FAILURE! - in TestSuite
+Runner.TestRunner.feature[Try to Register User with Invalid Phone Number](2)  Time elapsed: 11.336 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Job Search1] but found [Job Search]
+Caused by: java.lang.AssertionError: expected [Job Search1] but found [Job Search]
+
